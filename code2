@@ -1,0 +1,11 @@
+import numpy as np
+def lr():
+    array = np.random.randint(0, 101, size = 10) #рандомный массив
+    print(array)
+    np.random.shuffle(array)#перемешивание массива
+    print(array)
+    array = np.power(array,2)#возведение массива в степень
+    print(array)
+    array = np.sort(array)#сортировка массива
+    print(array)
+lr()
